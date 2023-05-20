@@ -1,0 +1,60 @@
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 0rem;
+    background-color: #2C3440;
+  }
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+  
+  .logo__image {
+    width: 56px;
+    height: 20px;
+  }
+  
+  .logo__header {
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #d8e0e8;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .search {
+    width: 9rem;
+    height: 1.8rem;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0.25);
+  }
+  
+  .search:hover {
+    transition: 0.4s;
+    background-color: white;
+  }
+  
+  .search::placeholder {
+    float: right;
+  }
+  
