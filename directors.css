@@ -6,26 +6,37 @@ header {
     gap: 5rem;
     padding-top: 0rem;
     background-color: #2C3440;
-  }
-  
-  
-  .logo {
+}
+
+body {
+    background-color: #181D22;
+    padding: 0px;
+    margin: 0px;
+    font-family: Graphik;
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url("Graphik_Web_Semibold_Regular\(1\).ttf");
+}
+
+.logo {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    margin-top: 1rem;
-  }
-  
-  .logo__image {
+
+}
+
+.logo__image {
     width: 56px;
     height: 20px;
-  }
-  
-  .logo__header {
+}
+
+.logo__header {
     color: white;
-  }
-  
-  .menu {
+}
+
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,27 +45,79 @@ header {
     margin-top: 1rem;
     font-size: 14px;
     color: #d8e0e8;
-  }
-  
-  .menu a {
+}
+
+.menu a {
     text-decoration: none;
     color: white;
-  }
-  
-  .search {
+}
+
+.search {
     width: 9rem;
     height: 1.8rem;
     border-radius: 20px;
     border: none;
     background-color: hsla(0, 0%, 100%, 0.25);
-  }
-  
-  .search:hover {
+}
+
+.search:hover {
     transition: 0.4s;
     background-color: white;
-  }
-  
-  .search::placeholder {
+}
+
+.search::placeholder {
     float: right;
-  }
-  
+}
+
+.container {
+    padding: 0 18%;
+}
+
+.main>h2 {
+    color: #789;
+}
+
+.hr {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #789;
+    border-top: 1px solid #789;
+}
+ .hr > span {
+    color: #789;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer>p {
+    color: #456;
+}
+
+.footer {
+    background-color: #2C3440;
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 15px;
+
+
+}
+
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-nav>li>a {
+    color: #789;
+    text-decoration: none;
+}
