@@ -70,7 +70,14 @@ body {
 }
 
 .container {
-    padding: 0 18%;
+    padding: 0 15%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100%;
+    
 }
 
 .main>h2 {
@@ -83,13 +90,54 @@ body {
     border-bottom: 1px solid #789;
     border-top: 1px solid #789;
 }
- .hr > span {
+
+.hr>span {
     color: #789;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.movies {
     
+}
+
+.bio {
+
+    padding-top: 30px;
+    padding-left: 40px;
+
+
+}
+
+.bio>img {
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.bio>p {
+    color: #789;
+    font-size: 16px;
+}
+
+.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+
+}
+.box {
+    width: 24%;
+    
+}
+.box > img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #789;
 }
 
 .footer>p {
