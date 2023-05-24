@@ -1,174 +1,163 @@
 header {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    padding-top: 0rem;
-    background-color: #2C3440;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 0rem;
+  background-color: #2c3440;
 }
 
 body {
-    background-color: #181D22;
-    padding: 0px;
-    margin: 0px;
-    font-family: Graphik;
+  background-color: #181d22;
+  padding: 0px;
+  margin: 0px;
+  font-family: Graphik;
 }
 
 @font-face {
-    font-family: Graphik;
-    src: url("Graphik_Web_Semibold_Regular\(1\).ttf");
+  font-family: Graphik;
+  src: url("Graphik_Web_Semibold_Regular\(1\).ttf");
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 .logo__image {
-    width: 56px;
-    height: 20px;
+  width: 56px;
+  height: 20px;
 }
 
 .logo__header {
-    color: white;
+  color: white;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    gap: 1rem;
-    margin-top: 1rem;
-    font-size: 14px;
-    color: #d8e0e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #d8e0e8;
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .search {
-    width: 9rem;
-    height: 1.8rem;
-    border-radius: 20px;
-    border: none;
-    background-color: hsla(0, 0%, 100%, 0.25);
+  width: 9rem;
+  height: 1.8rem;
+  border-radius: 20px;
+  border: none;
+  background-color: hsla(0, 0%, 100%, 0.25);
 }
 
 .search:hover {
-    transition: 0.4s;
-    background-color: white;
+  transition: 0.4s;
+  background-color: white;
 }
 
 .search::placeholder {
-    float: right;
+  float: right;
 }
 
 .container {
-    padding: 0 15%;
+  padding: 0 24%;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 100%;
-    
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 100%;
 }
 
-.main>h2 {
-    color: #789;
+.main > h2 {
+  color: #789;
 }
 
 .hr {
-    width: 100%;
-    padding: 10px 0px;
-    border-bottom: 1px solid #789;
-    border-top: 1px solid #789;
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid #789;
+  border-top: 1px solid #789;
 }
 
-.hr>span {
-    color: #789;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.hr > span {
+  color: #789;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .movies {
-    width: 100%;
-    height: 200%;
+  width: 100%;
+  height: 200%;
 }
 
 .bio {
-
-    padding-top: 30px;
-    padding-left: 40px;
-
-
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
-.bio>img {
-    width: 100%;
-    height: 50%;
-    border-radius: 15px;
+.bio > img {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
 }
 
-.bio>p {
-    color: #789;
-    font-size: 16px;
+.bio > p {
+  color: #789;
+  font-size: 16px;
 }
 
 .show {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 10px;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
 }
 .box {
-    width: 24%;
-
-    
+  width: 24%;
 }
 .box > img {
-    width: 100%;
-    height: 85%;
-    border-radius: 10px;
-    border: 1px solid #789;
+  width: 100%;
+  height: 85%;
+  border-radius: 10px;
+  border: 1px solid #789;
 }
 
-.footer>p {
-    color: #456;
+.footer > p {
+  color: #456;
 }
 
 .footer {
-    background-color: #2C3440;
-    width: 100%;
-    padding: 0px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 13px;
-    padding-bottom: 15px;
-
-
+  background-color: #2c3440;
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 15px;
 }
 
 .footer-nav {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.footer-nav>li>a {
-    color: #789;
-    text-decoration: none;
+.footer-nav > li > a {
+  color: #789;
+  text-decoration: none;
 }
