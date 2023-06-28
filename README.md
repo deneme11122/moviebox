@@ -19,11 +19,16 @@ Geliştirici bir arkadaşımla [aysenurus](https://github.com/aysenurus) beraber
 3. Proje dizinine gidin: `cd proje`
 4. İnternet tarayıcınızda `index.html` dosyasını açın.
 
-## Kullanım
+<h2> 🛠️ &nbsp;Kullanılan Teknolojiler</h2>
 
-- Uygulamayı başlattıktan sonra ana sayfada film listesine erişebilirsiniz.
-- Her filmin üzerine tıklayarak filmin yönetmeninin ayrıntılı bilgilerine ulaşabilirsiniz.
-- Yönetmenler sayfasında yönetmenler hakkında bilgi alabilirsiniz ve yönetmenlerin popüler filmlerini görüntüleyebilirsiniz.
+Bu proje, **HTML** ve **CSS** kullanılarak oluşturulmuştur. Front-end geliştirme becerilerimi sergileyerek işlevsel ve kullanıcı dostu bir web uygulaması oluşturma yeteneğimi göstermektedir.
+
+<table style="margin: 0 auto;">
+  <tr>
+    <td><img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3"/></td>
+  </tr>
+</table>
 
 ## 🤝 Katkıda Bulunma
 
