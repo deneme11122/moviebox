@@ -4,7 +4,7 @@ Letterboxd platformunun basitleştirilmiş clone uygulamasını geliştirdik
 
 <img src="/assets/page-image.png"/>
 
-Geliştirici bir arkadaşımla ([aysenurus])(https://github.com/aysenurus) [bugrabasbostanci](https://github.com/bugrabasbostanci) beraber geliştirdiğimiz bu proje ile web alanında yeteneklerimizi keşfettik. Kullanıcılar bu uygulamada favori filmlerimizi ve yönetmenleri inceleyebilir. Bu proje kullanıcıların film sevgisini ve paylaşma tutkusunu desteklemeyi amaçladı.
+Geliştirici bir arkadaşımla [aysenurus](https://github.com/aysenurus) beraber geliştirdiğimiz bu proje ile web alanında yeteneklerimizi keşfettik. Kullanıcılar bu uygulamada favori filmlerimizi ve yönetmenleri inceleyebilir. Bu proje kullanıcıların film sevgisini ve paylaşma tutkusunu desteklemeyi amaçladı.
 
 ## 🚀 Özellikler
 
@@ -44,3 +44,7 @@ https://letterboxd.com
 https://a.ltrbxd.com/resized/sm/upload/wi/k1/cs/mn/suzume-1200-1200-675-675-crop-000000.jpg?v=9d6e30f1d6
 
 https://s.ltrbxd.com/static/img/logo-shadow.85503a3e.png
+
+## Projeyi geliştirenler
+[bugrabasbostanci](https://github.com/bugrabasbostanci)
+[aysenurus](https://github.com/aysenurus)
